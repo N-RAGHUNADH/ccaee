@@ -833,104 +833,53 @@ a {
   color: #000000;
   text-align: right;
 }
-.cid-sTvLAwAaj7 {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-sTvLAwAaj7 .showAlerts {
-  display: block !important;
-}
-.cid-sTvLAwAaj7 .rowflexrev {
-  display: -webkit-flex;
-}
-.cid-sTvLAwAaj7 .ws-form-alerts {
-  margin-top: 1rem;
-}
-.cid-sTvLAwAaj7 .title {
-  margin-bottom: 2rem;
-}
-.cid-sTvLAwAaj7 .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-sTvLAwAaj7 textarea.form-control {
-  min-height: 188px;
-}
-.cid-sTvLAwAaj7 LABEL {
-  color: #232323;
-  display: initial;
-}
-.cid-sTvLAwAaj7 .mbr-section-terms {
+#witsec-mailform-m3-2m .mbr-section-title {
   text-align: center;
   color: #232323;
-  margin-bottom: 0px;
 }
-.cid-sTvLAwAaj7 .mbr-section-labels {
-  color: #232323;
+#witsec-mailform-m3-2m .mbr-section-subtitle {
+  text-align: center;
+  color: #767676;
+}
+#witsec-mailform-m3-2m .mbr-section-labels {
+  color: #000;
   padding: 0;
   margin-bottom: .357em;
-  text-align: left;
 }
-.cid-sTvLAwAaj7 .mbr-section-autorespond {
-  text-align: left;
-  color: #232323;
-  margin-bottom: 0px;
+#witsec-mailform-m3-2m .form-control-textarea {
+  min-height: 188px;
 }
-.cid-sTvLAwAaj7 .mbr-section-gdpr {
+#witsec-mailform-m3-2m .mbr-section-autorespond {
   text-align: left;
   color: #232323;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  display: inline;
 }
-.cid-sTvLAwAaj7 .alert {
+#witsec-mailform-m3-2m .mbr-section-gdpr {
+  text-align: left;
+  color: #232323;
+  margin-bottom: 0;
+  display: inline;
+}
+#witsec-mailform-m3-2m .mbr-section-terms {
+  text-align: center;
+  color: #232323;
   margin-bottom: 0;
 }
-.cid-sTvLAwAaj7 .alert-success {
-  background-color: #70c770;
+#witsec-mailform-m3-2m .alert {
+  margin-bottom: 0;
 }
-.cid-sTvLAwAaj7 .alert-danger {
-  background-color: #ff4a52;
+#witsec-mailform-m3-2m .g-recaptcha {
+  margin-bottom: 1rem;
 }
-.cid-sTvLAwAaj7 .btn {
-  display: inline-flex;
+#witsec-mailform-m3-2m .align-right {
+  text-align: right;
 }
-.cid-sTvLAwAaj7 .hidden {
-  display: none;
-}
-.cid-sTvLAwAaj7 .mbr-alert-success {
-  text-align: left;
+#witsec-mailform-m3-2m .alert-success {
   color: #ffffff;
 }
-.cid-sTvLAwAaj7 .mbr-alert-danger {
-  text-align: left;
+#witsec-mailform-m3-2m .alert-danger {
   color: #ffffff;
-}
-.cid-sTvLAwAaj7 .uploadBtn {
-  padding-top: 13px !important;
-  padding-left: 12.5px !important;
-}
-.cid-sTvLAwAaj7 input[type=file]::file-selector-button {
-  border: 1px solid #232323 !important;
-  padding: .2em .4em;
-  border-radius: .2em;
-  background-color: #cccccc !important;
-  color: #232323 !important;
-  transition: 0.3s;
-}
-.cid-sTvLAwAaj7 input[type=file]::-webkit-file-upload-button {
-  border: 1px solid #232323 !important;
-  padding: .2em .4em;
-  border-radius: .2em;
-  background-color: #cccccc !important;
-  color: #232323 !important;
-  transition: 0.3s;
-}
-.cid-sTvLAwAaj7 input[type=file]::-ms-browse {
-  border: 1px solid #232323 !important;
-  padding: .2em .4em;
-  border-radius: .2em;
-  background-color: #cccccc !important;
-  color: #232323 !important;
-  transition: 0.3s;
 }
 .cid-sTbrNKFuyb {
   background-image: url("../../../assets/images/mbr-1920x1152.jpg");
