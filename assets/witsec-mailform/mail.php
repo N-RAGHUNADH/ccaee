@@ -19,16 +19,16 @@ foreach (["PHPMailer.php", "Exception.php", "SMTP.php"] as $f) {
 $to = "raghunadh_n@pace.ac.in";														// To Address
 $toAlt = "";												// Additional Recipients
 $from = "raghunadh_n@pace.ac.in";													// From Address
-$fromName = "Your Name";											// From Name
+$fromName = "ccaee";											// From Name
 $fromThem = ("0" == "1" ? true : false);					// Use Sender as From Address
 $fromThemReplyTo = ("1" == "1" ? true : false);	// Use Sender as Reply-To
 $fromNameThem = ("1" == "1" ? true : false);			// Use Sender Name as From Name
 $fromNameThemField = "CCAEE-2022";						// Name of the field(s) that can contain the Sender Name
 $template = "Hi,<br><br>You have received a new message from your website.<br><br>{formdata}<br><br>Date: {date}<br>Remote IP: {ip}<br><br>---<br>Have a nice day.";											// Mail Template
 $autorespondSubjectPrefix = "Re:";			// Autorespond Form Subject Prefix
-$autorespondSubject = "";						// Autorespond Custom Subject
+$autorespondSubject = "Thanks {name} from CCAEE";						// Autorespond Custom Subject
 $autorespondTemplate = "Hi {name},<br><br>Thank you for your message. We'll get back to you as soon as we can.<br>Here's the information you sent us:<br><br>{formdata}<br><br>---<br>Thnks & Regards<br>CCAEE Team";					// Autorespond Template
-$rcp = ("1" == "1" ? true : false);						// Use reCAPTCHA
+$rcp = ("0" == "1" ? true : false);						// Use reCAPTCHA
 $rcpVersion = "captcha";								// reCAPTCHA Version
 $rcpScore = "0.5";									// reCAPTCHA Score
 $rcpSecret = "";								// reCAPTCHA Secret Key
